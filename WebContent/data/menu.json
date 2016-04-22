@@ -1,0 +1,97 @@
+[{
+		"text" : "用户管理",
+		"id" : "1",
+		"leaf" : false,
+		"expanded" : true,
+		"children" : [{
+				"text" : "二栏模式",
+				"id" : "2",
+				"titleIcon" : "group", // 图标
+				"controller" : "AM.multiModel.controller.MultiModelController", //对应的控制器
+				"defaultPanel" : 'twomodelpanel', // 默认的面板
+				"leaf" : true,
+				"children" : []
+			}, {
+				"text" : "用户列表",
+				"id" : "3",
+				"titleIcon" : "group", // 图标
+				"controller" : "AM.user.controller.UserController", //对应的控制器
+				"defaultPanel" : 'userpanel', // 默认的面板
+				"leaf" : true,
+				"children" : []
+			}
+		]
+	}, {
+		"text" : "审核管理",
+		"id" : "10",
+		"leaf" : false,
+		"expanded" : true,
+		"children" : [{
+				"text" : "审核1",
+				"controller" : "AM.user.controller.UserController",
+				"defaultPanel" : 'usergrid',
+				"id" : "11",
+				"titleIcon" : "usergo",
+				"leaf" : true,
+				"children" : []
+			}, {
+				"text" : "审核2",
+				"id" : "12",
+				"controller" : "AM.user.controller.UserController",
+				"defaultPanel" : 'usergrid',
+				"titleIcon" : "group",
+				"leaf" : true,
+				"children" : []
+			}
+		]
+	}, {
+		"text" : "组织架构",
+		"id" : "19",
+		"leaf" : false,
+		"expanded" : true,
+		"children" : [{
+				"text" : "组织架构",
+				"id" : "18",
+				"controller" : "AM.org.controller.OrgController", //对应的控制器
+				"defaultPanel" : 'orgpanel', // 默认的面板
+				"titleIcon" : "group",
+				"leaf" : true,
+				"children" : []
+			}, {
+				"text" : "角色管理",
+				"id" : "20",
+				"controller" : "AM.role.controller.RoleController", //对应的控制器
+				"defaultPanel" : 'rolepanel', // 默认的面板
+				"titleIcon" : "group",
+				"leaf" : true,
+				"children" : []
+			}
+		]
+	}, {
+		"text" : "信息配置",
+		"id" : "13",
+		"leaf" : false,
+		"expanded" : true,
+		"children" : [{
+				"text" : "基本参数设置",
+				"id" : "14",
+				"titleIcon" : "group",
+				"leaf" : true,
+				"children" : []
+			}, {
+				"text" : "基本参数设置2",
+				"id" : "15",
+				"titleIcon" : "group",
+				"leaf" : true,
+				"children" : []
+
+			}, {
+				"text" : "基本参数设置3",
+				"id" : "17",
+				"titleIcon" : "group",
+				"leaf" : true,
+				"children" : []
+			}
+		]
+	}
+]

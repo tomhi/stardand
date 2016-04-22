@@ -1,0 +1,17 @@
+[{
+		"text" : "分公司1",
+		"id" : "1",
+		"leaf" : false,
+		"expanded" : false
+	}, {
+		"text" : "分公司2",
+		"id" : "1022",
+		"leaf" : false,
+		"expanded" : false
+	}, {
+		"text" : "分公司3",
+		"id" : "10222",
+		"leaf" : false,
+		"expanded" : false
+	}
+]

@@ -1,0 +1,77 @@
+[{
+		"text" : "分公司1",
+		"id" : "1",
+		"leaf" : false,
+		"expanded" : true,
+		"children" : [{
+				"text" : "部门1",
+				"leaf" : false,
+				"id" : "2",
+				"expanded" : true,
+				"children" : [{
+						"text" : "用户1",
+						"leaf" : true,
+						iconCls: 'user',
+						"id" : "222222222"
+					}, {
+						"text" : "用户2",
+						"leaf" : true,
+						iconCls: 'user',
+						"id" : "333333333"
+					}, {
+						"text" : "用户2",
+						"leaf" : true,
+						iconCls: 'user',
+						"id" : "433333333"
+					}
+				]
+			}, {
+				"text" : "部门2",
+				"leaf" : true,
+				"id" : "3"
+			}, {
+				"text" : "部门3",
+				"leaf" : true,
+				"id" : "4"
+			}
+		]
+	}, {
+		"text" : "分公司2",
+		"id" : "1022",
+		"leaf" : false,
+		"expanded" : true,
+		"children" : [{
+				"text" : "部门1",
+				"leaf" : true,
+				"id" : "222"
+			}, {
+				"text" : "部门2",
+				"leaf" : true,
+				"id" : "2223"
+			}, {
+				"text" : "部门3",
+				"leaf" : true,
+				"id" : "2224"
+			}
+		]
+	}, {
+		"text" : "分公司3",
+		"id" : "10222",
+		"leaf" : false,
+		"expanded" : true,
+		"children" : [{
+				"text" : "部门1",
+				"leaf" : true,
+				"id" : "332"
+			}, {
+				"text" : "部门2",
+				"leaf" : true,
+				"id" : "333"
+			}, {
+				"text" : "部门3",
+				"leaf" : true,
+				"id" : "334"
+			}
+		]
+	}
+]
